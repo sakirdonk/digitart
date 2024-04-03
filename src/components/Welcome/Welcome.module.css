@@ -1,0 +1,17 @@
+.welcome{
+    background-image: url(../../assets/bg_card.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0;
+    color: white;
+}
+
+.welcome__card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 3rem;
+}

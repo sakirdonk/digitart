@@ -1,0 +1,25 @@
+.Coop{
+    border-bottom: solid grey 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem 0;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.logo_Tut{
+    width: 15%;
+    padding: 0 1rem 0 2rem;
+}
+
+.logo_Kemkes{
+    width: 30%;
+}

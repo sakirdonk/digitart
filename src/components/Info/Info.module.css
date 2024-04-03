@@ -1,0 +1,24 @@
+.highlight{
+    color: aqua;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+
+h1{
+    margin: 0;
+}
+
+.paragraph{
+    text-align: center;
+    margin: 0;
+}
+
+.section{
+    width: 60%;
+}

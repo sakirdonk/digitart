@@ -1,0 +1,92 @@
+.body{
+  border-bottom: 1px solid black;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 6rem;
+  }
+  
+  .navbar__brand {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .navbar__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .navbar__item {
+    margin-bottom: 1rem;
+  }
+
+  .navbar__link{
+    color: black;
+    text-decoration: none;
+  }
+
+  .logo__image{
+    width: 4rem;
+  }
+
+  .logo__image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .lang{
+    border: 1px solid grey;
+    color: grey;
+    background-color: white;
+    padding: 0.7rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lang__icon{
+    width:10%;
+    margin-left: 0.8rem;
+  }
+
+  .reg{
+    padding: 0.7rem 1.5rem;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .log{
+    padding: 0.7rem 1.5rem;
+  }
+  
+  /* Medium Screen */
+  @media (min-width: 768px) {
+    .navbar {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .navbar__list {
+      flex-direction: row;
+    }
+  
+    .navbar__item {
+      margin: 0 1rem;
+    }
+  }
+  
+  /* Large Screen */
+  @media (min-width: 992px) {
+    /* 
+     * Nothing TODO HERE.
+     * We haven't styling Navbar.
+     */
+  }

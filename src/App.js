@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+// import Dashboard from './pages/Dashboard';
+import { ThemeProvider } from 'styled-components';
+import theme from './utils/constants/theme';
+import Layout from './Layout/index';
+import Hero from './components/Hero/Hero';
+import Coop from './components/Coop/Coop';
+import Info from './components/Info/Info';
+import Footer from './components/Footer/Footer';
+import Welcome from './components/Welcome/Welcome';
+import News from './components/News/News';
+// import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <Layout>
+        <Hero />
+        <Coop />
+        <Info />
+        <News />
+        <Welcome />
+        <Footer />
+      </Layout>
+    </ThemeProvider>
+
+        // <Routes>
+        //   <Route path="/" element={<Dashboard />}></Route>
+        // </Routes>
   );
 }
 

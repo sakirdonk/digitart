@@ -1,0 +1,44 @@
+    .Email{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        background-color: white;
+        width: 80%;
+        padding: 3rem 0;
+    }
+
+    .email__logo2{
+        width: 10rem;
+        margin-right: 2rem;
+    }
+
+    input{
+        border-style: none;
+        background: transparent;
+        color: #2B3D51;
+    }
+
+    textarea:focus, input:focus{
+        outline: none;
+    }
+
+    .email__form{
+        background-color: #F5F1F1;
+        height: 3rem;
+        border-radius: 10px;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+    button{
+        background-color: #1785EC;
+        color: white;
+        border-style: none;
+        border-radius: 10px;
+        padding: 0.5rem 1rem;
+    }
