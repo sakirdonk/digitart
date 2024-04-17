@@ -4,10 +4,13 @@ import styles from "./Footer.module.css";
 import fb_icon from "../../assets/fb_icon.png";
 import twitter_icon from "../../assets/twitter_icon.png";
 import yt_icon from "../../assets/yt_icon.png";
+import Background from "../ui/Background";
+import Container from "../Container";
 
 function Footer(){
     return(
-        <div className={styles.footer}>
+        <Background bg="footer">
+            <Container>
             <div className={styles.footer__Email}>
                 <Email />
             </div>
@@ -50,7 +53,8 @@ function Footer(){
                     </ul>
                 </div>
             </div>
-        </div>
+        </Container>
+        </Background>
     )
 }
 

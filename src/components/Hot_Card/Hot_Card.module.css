@@ -1,0 +1,49 @@
+.hot{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    box-shadow: 0px 0px 2px #888888;
+}
+
+.hot__left{
+    flex-basis: 90%;
+}
+
+.hot__right{
+    flex-basis: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+p{
+    color: #888888;
+    font-size: 12px;
+}
+
+h4{
+    margin: 0px;
+    margin-bottom: 1rem;
+}
+
+.post{
+    margin-bottom: 0px;
+}
+
+.community{
+    margin-bottom: 1rem;
+}
+
+.dots__pict{
+    width: 100%;
+}
+
+.link{
+    margin: 0px;
+    width: 100%;
+}

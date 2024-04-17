@@ -1,0 +1,21 @@
+.service{
+    padding: 1rem 0 7rem;
+    padding-bottom: 15rem;
+    margin-bottom: 3rem;
+}
+
+.service__card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.tittle{
+    font-size: 35px;
+}

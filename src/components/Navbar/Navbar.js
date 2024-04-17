@@ -1,33 +1,31 @@
 import logo from "./../../assets/logo.png";
 import lang_icon from "./../../assets/lang_icon.png";
 import styles from "./Navbar.module.css";
+import Container from "../Container";
+import { Link } from "react-router-dom";
 
 function Navbar(){
     return(
         <div className={styles.body}>
+            <Container>
             <nav className={styles.navbar}>
                 <div className={styles.navbar__left}>
                     <div className={styles.navbar__menu}>
                         <ul className={styles.navbar__list}>
-                            <li className={styles.navbar__item}>
-                                {/* <Link className={styles.navbar__link}>Beranda</Link> */}
-                                <img src={logo} className={styles.logo__image} alt="logo"/>
+                            <li className={styles.navbar__item__image}>
+                                <Link to="/" className={styles.navbar__link}><img src={logo} className={styles.logo__image} alt="logo"/></Link>
                             </li>
                             <li className={styles.navbar__item}>
-                                {/* <Link className={styles.navbar__link}>Beranda</Link> */}
-                                <div className={styles.navbar__link}>Beranda</div>
+                                <Link to="/" className={styles.navbar__link}>Beranda</Link>
                             </li>
                             <li className={styles.navbar__item}>
-                                {/* <Link className={styles.navbar__link}>Komunitas</Link> */}
-                                <div className={styles.navbar__link}>Komunitas</div>
+                                <Link to="/community" className={styles.navbar__link}>Komunitas</Link>
                             </li>
                             <li className={styles.navbar__item}>
-                                {/* <Link className={styles.navbar__link}>Konsultasi</Link> */}
-                                <div className={styles.navbar__link}>Konsultasi</div>
+                                <Link to="/consult" className={styles.navbar__link}>Konsultasi</Link>
                             </li>
                             <li className={styles.navbar__item}>
-                                {/* <Link className={styles.navbar__link}>Tentang Kami</Link> */}
-                                <div className={styles.navbar__link}>Tentang Kami</div>
+                                <Link to="/about" className={styles.navbar__link}>Tentang Kami</Link>
                             </li>
                         </ul>
                     </div>
@@ -41,12 +39,21 @@ function Navbar(){
                                     <img className={styles.lang__icon} src={lang_icon} alt="globeicon" />
                                 </button>
                             </li>
-                            <li className={styles.navbar__item}><button className={styles.reg}>Daftar</button></li>
-                            <li className={styles.navbar__item}><button className={styles.log}>Masuk</button></li>
+                            <li className={styles.navbar__item}>
+                                <Link to="/register">
+                                    <button className={styles.reg}>Daftar</button>
+                                </Link>
+                            </li>
+                            <li className={styles.navbar__item}>
+                                <Link to="/login">
+                                    <button className={styles.log}>Masuk</button>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            </Container>
         </div>
     )
 }

@@ -1,7 +1,8 @@
 .hero{
     display: flex;
     flex-direction: row;
-    background-image:url(../../assets/bg_hero.png);
+    justify-content: center;
+    /* background-image:url(../../assets/bg_hero.png); */
 }
 
 .right{
@@ -14,7 +15,9 @@
 }
 
 .paragraph{
+    color: black;
     text-align: justify;
+    margin: 1rem 0;
 }
 
 .button{

@@ -1,0 +1,125 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 35rem;
+}
+
+.logo__image{
+    margin-top: 5rem;
+    width: 10%;
+    border-radius: 7px;
+}
+
+.exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.degree{
+    color: grey;
+    font-weight: normal;
+}
+
+.chat__box{
+    border: 1px grey solid;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.border{
+    border: 1px rgb(132, 132, 132) solid;
+}
+
+.chat__dialogue{
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__dia__left{
+    border-radius: 5px;
+    margin: 1rem 2rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 3px 5px #888888;
+}
+
+.chat__dia__right{
+    border-radius: 5px;
+    margin: 1rem 2rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 3px 5px #888888;
+    align-self: end;
+}
+
+.chat__input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: 1px grey solid;
+    border-radius: 7px;
+}
+
+.chat__left{
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.chat__middle{
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+.chat__right{
+    flex-basis: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo__left{
+    width: 25%;
+}
+
+.logo__right1{
+    width: 15%;
+    flex-basis: 5%;
+}
+
+.logo__right2{
+    width: 25%;
+    flex-basis: 5%;
+}
+
+.logo__chat{
+    width: 8%;
+}
+
+.line{
+    margin: 0;
+}
+
+.input{
+    flex-basis: 90%;
+}
+
+.chat__title{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}

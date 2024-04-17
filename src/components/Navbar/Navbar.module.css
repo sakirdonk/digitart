@@ -4,7 +4,8 @@
 .navbar {
     display: flex;
     flex-direction: column;
-    margin: 1rem 6rem;
+    margin: 1rem 0;
+    /* margin: 1rem 6rem; */
   }
   
   .navbar__brand {
@@ -25,6 +26,10 @@
     margin-bottom: 1rem;
   }
 
+  .navbar__item__image {
+    margin-right: 1rem;
+  }
+
   .navbar__link{
     color: black;
     text-decoration: none;
@@ -35,7 +40,7 @@
   }
 
   .logo__image {
-    max-width: 100%;
+    max-width: 60%;
     height: auto;
   }
 

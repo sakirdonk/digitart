@@ -1,0 +1,29 @@
+.card{
+    background-color: white;
+    border-radius: 7px;
+    width: 25%;
+    padding: 2rem;
+    margin: 4rem 7.3rem;
+}
+
+.pict{
+    width:25%;
+}
+
+.card__desc{
+    margin-bottom: 5rem;
+}
+
+.logo__arrow{
+    width:7%;
+}
+
+.card__learn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card__link{
+    margin-right: 2rem;
+}

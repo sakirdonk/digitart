@@ -1,0 +1,32 @@
+.user__pict{
+    width:90%;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0px;
+    margin-bottom: 1rem;
+}
+
+.hero__pict{
+    flex-basis: 22%;
+}
+
+.hero__name{
+    flex-basis: content;
+    display:flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    justify-content: end;
+}
+
+.edit__profile{
+    width: 40%;
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.user__name{
+    margin-bottom: 3rem;
+}
